@@ -1,0 +1,44 @@
+.burgerMenu {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0 0 0;
+}
+
+.burgerMenu div,
+.calculate {
+    display: flex;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 30px 20px;
+    gap: 10px;
+}
+
+.wrapper-calculate {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+button {
+    background: green;
+    border-style: none;
+    width: 150px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: rgba(121, 121, 235, 0.208);
+    cursor: auto;
+}
+
+
+button:hover { 
+    background: yellow;
+}
+
+button.active {
+    background: blue;
+}
